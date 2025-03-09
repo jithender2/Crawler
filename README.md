@@ -35,8 +35,9 @@ Feed URLs from a file:
 cat urls.txt | python crawler.py
 ```
 With proxy support 
+```bash
 cat urls.txt | python crawler.py --depth 2 --proxy http://127.0.0.1:8080
-
+```
 
 ### Available Arguments:
 | Flag | Description |
