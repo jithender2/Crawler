@@ -15,11 +15,15 @@ An Async Web Crawler with HTTP/2 & Proxy Support.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/crawler.git
+git clone https://github.com/jithender2/Crawler.git
 cd crawler
 ```
-
-2. Install the dependencies:
+1.Create Virtual Environment(Recommended)
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -47,4 +51,4 @@ cat urls.txt | python crawl.py --depth 2 --proxy http://127.0.0.1:8080 --subs
 MIT License
 
 ## Author
-Jithu
+Mr.Ethical YT
