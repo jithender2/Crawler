@@ -16,7 +16,7 @@ An Async Web Crawler with HTTP/2 & Proxy Support.
 1. Clone this repository:
 ```bash
 git clone https://github.com/jithender2/Crawler.git
-cd crawler
+cd Crawler
 ```
 1.Create Virtual Environment(Recommended)
 ```bash
@@ -32,8 +32,11 @@ pip install -r requirements.txt
 
 Feed URLs from a file:
 ```bash
-cat urls.txt | python crawl.py --depth 2 --proxy http://127.0.0.1:8080 --subs
+cat urls.txt | python crawler.py
 ```
+With proxy support 
+cat urls.txt | python crawler.py --depth 2 --proxy http://127.0.0.1:8080
+
 
 ### Available Arguments:
 | Flag | Description |
